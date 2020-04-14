@@ -162,6 +162,7 @@ border-radius: 50%;
 -o-transition: 400ms;
 transition: 400ms;
 cursor: pointer;
+display: inline-block;
 }
     .icon-round:hover {
         background-color:rgb(255, 15, 101);
@@ -289,7 +290,7 @@ span.round-tabs{
     text-align: center;
     font-size: 25px;
 }
-
+span.round-tabs i{font-size: 36px !important;}
 span.round-tabs.one{
     color: rgb(34, 194, 34);
     border: 2px solid rgb(34, 194, 34);
